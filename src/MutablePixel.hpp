@@ -20,7 +20,7 @@ public:
     std::vector<t_keyframe> m_colorKeyframes;
     std::size_t m_currentColorKeyframeIdx;
     uint32_t m_timeReference;
-
+    uint32_t (*getTime)();  // Pointer to function
 };
 
 
